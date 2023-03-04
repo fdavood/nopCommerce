@@ -8,6 +8,7 @@ namespace Nop.Tests
         public bool Equals(T x, T y)
         {
             return x?.Id == y?.Id;
+
         }
 
         public int GetHashCode(T obj)
